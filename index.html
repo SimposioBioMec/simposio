@@ -100,11 +100,12 @@
 
         .carousel-nav {
             position: absolute;
-            bottom: 20px;
+            bottom: 30px; /* ALTERADO: Subindo as bolinhas e garantindo visibilidade */
             left: 50%;
             transform: translateX(-50%);
             display: flex;
             gap: 10px;
+            z-index: 100; /* ADICIONADO: Garante que as bolinhas fiquem por cima */
         }
 
         .nav-dot {
